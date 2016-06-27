@@ -1,1 +1,78 @@
-/*This file is for your custom css.  All yours*/
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "open sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+}
+
+body {
+  background-image: url("../img/background.jpg");
+}
+
+#logo {
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  list-style-type: none;
+  float: right;
+}
+
+.nav li {
+  margin: .3em;
+  display: inline;
+  font-weight: 600;
+  color: white;
+}
+
+.nav li > a:hover {
+  background-color: rgba(255,255,255,0.15);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav li > a {
+  padding: .4em;
+}
+
+.row {
+  margin-bottom: 3em;
+}
+
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: Fjalla One;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: Fjalla One;
+  text-transform: uppercase;
+  font-size: 10em;
+  /*text-align: center;*/
+}
+
+h3 {
+  font-family: "Lora","open sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  /*text-align: center;*/
+}
