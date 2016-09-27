@@ -1,4 +1,4 @@
-# Bucketlistly COpy
+# Bucketlistly Copy
 
 #### By Kevin VanEvery and Niki Garner
 
@@ -40,4 +40,4 @@ None.  But we haven't really tested much, so if you find anything, let us know a
 
 Licensed under the MIT License
 
-Copyright (c) 2016 **Epicodus*
+Copyright (c) 2016 **Epicodus**
